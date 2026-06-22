@@ -3,101 +3,140 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Brand - Air Dried Meat</title>
+  <title>Air-Dried Meat</title>
 
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f0f0f;
-      color: white;
-      text-align: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: #0b0b0b;
+      color: #f5f5f5;
+      line-height: 1.5;
     }
 
-    .hero {
-      padding: 120px 20px;
-      background: linear-gradient(to bottom, #1a1a1a, #000);
+    .section {
+      padding: 100px 20px;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
     }
 
     h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
+      font-size: 56px;
+      font-weight: 600;
+      letter-spacing: -1px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 36px;
+      font-weight: 500;
+      margin-bottom: 20px;
     }
 
     p {
       font-size: 18px;
-      color: #ccc;
+      color: #b5b5b5;
       max-width: 600px;
-      margin: 0 auto;
+      margin: auto;
     }
 
-    .tagline {
-      margin-top: 20px;
-      font-size: 16px;
-      color: #aaa;
+    .hero {
+      padding-top: 140px;
+      padding-bottom: 80px;
     }
 
-    .email-box {
+    .hero img {
+      width: 100%;
+      max-width: 650px;
+      margin-top: 40px;
+      border-radius: 18px;
+    }
+
+    .cta-box {
       margin-top: 40px;
     }
 
     input {
-      padding: 12px;
-      width: 250px;
+      padding: 14px;
+      width: 260px;
+      border-radius: 10px;
       border: none;
-      border-radius: 5px;
+      outline: none;
+      font-size: 16px;
     }
 
     button {
-      padding: 12px 20px;
+      padding: 14px 20px;
+      margin-left: 10px;
+      border-radius: 10px;
       border: none;
-      background: #c0392b;
-      color: white;
-      border-radius: 5px;
+      background: white;
+      color: black;
+      font-weight: 500;
       cursor: pointer;
     }
 
-    .section {
-      padding: 80px 20px;
+    button:hover {
+      opacity: 0.85;
     }
 
-    .small {
+    .muted {
       font-size: 14px;
-      color: #888;
+      color: #777;
       margin-top: 10px;
+    }
+
+    .divider {
+      height: 1px;
+      background: #222;
+      margin: 40px auto;
+      max-width: 600px;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="hero">
+  <!-- HERO -->
+  <div class="section hero">
     <h1>Air-Dried Meat</h1>
-    <p>Traditional handcrafted air-dried meat made in small batches. Protein-rich. No shortcuts. Just time, salt, and craft.</p>
-<img src="Trophipack1.jpeg" alt="Air dried meat" style="width:100%; max-width:600px; margin-top:30px; border-radius:12px;">
-    <div class="tagline">
-      Launching soon in Europe
-    </div>
+    <p>Traditional handcrafted protein, slowly air-dried using only meat, salt, and time.</p>
 
-    <div class="email-box">
+    <div class="cta-box">
       <input type="email" placeholder="Enter your email">
       <button>Get early access</button>
-      <div class="small">Be the first to try it + early discounts</div>
+      <div class="muted">Be first to taste the launch batch</div>
     </div>
+
+    <img src="meat.jpg" alt="Air dried meat">
   </div>
 
+  <div class="divider"></div>
+
+  <!-- SECTION 2 -->
   <div class="section">
-    <h2>Crafted, not processed</h2>
+    <h2>Pure protein. Nothing else.</h2>
     <p>
-      We slowly air-dry premium meat using traditional methods. No preservatives. No industrial shortcuts.
+      No preservatives. No industrial shortcuts. Just carefully selected meat, naturally air-dried the traditional way.
     </p>
   </div>
 
+  <div class="divider"></div>
+
+  <!-- SECTION 3 -->
   <div class="section">
-    <h2>High protein fuel</h2>
+    <h2>Built for real life</h2>
     <p>
-      Designed for hiking, fitness, and real food lovers who want clean protein on the go.
+      Hiking. Training. Travel. Or just clean snacking. Designed for people who care about what they eat.
     </p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- FOOTER -->
+  <div class="section">
+    <p class="muted">© 2026 Trophi Brand. All rights reserved.</p>
   </div>
 
 </body>
